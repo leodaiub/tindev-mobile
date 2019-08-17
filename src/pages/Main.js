@@ -6,7 +6,7 @@ import api from '../services/api';
 import logo from '../assets/logo.png';
 import dislike from '../assets/dislike.png';
 import like from '../assets/like.png';
-//import itsamatch from '../assets/itsamatch.png';
+import itsamatch from '../assets/itsamatch.png';
 
 export default function Main({ navigation }) {
     const id = navigation.getParam('user');
